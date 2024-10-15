@@ -1,0 +1,120 @@
+/* Colores principales */
+body {
+    background-color: #f0f0f0; /* Fondo general suave */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2, legend {
+    color: #334; /* Color de los títulos y leyendas */
+    font-family: "Dancing Script", cursive; /* Mantener la fuente cursiva */
+  }
+  
+  header {
+    background-color: #00bcd4; /* Color de fondo del header */
+    padding: 10px;
+  }
+  
+  .footer {
+    background-color: #334; /* Color de fondo del footer */
+    padding: 20px;
+  }
+  
+  .footer p {
+    color: rgb(9, 206, 206); /* Color tipo cyan para las letras */
+  }
+  
+  form {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 20px;
+  }
+  
+  fieldset {
+    border: 2px solid #00bcd4; /* Borde en cian del campo */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+  }
+  
+  legend {
+    padding: 0 10px;
+    font-size: 1.4rem;
+    color: rgb(9, 206, 206); /* Cian para las leyendas */
+  }
+  
+  label {
+    font-weight: bold;
+    color: #334; /* Color oscuro para los textos de etiquetas */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select,
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    display: inline-block;
+    border: 2px solid #00bcd4; /* Bordes en cian */
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="date"]:focus,
+  select:focus,
+  input[type="file"]:focus {
+    border-color: rgb(9, 206, 206); /* Efecto de foco cian brillante */
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Estilo de los botones */
+  button, input[type="submit"], input[type="reset"] {
+    background-color: #334; /* Fondo oscuro */
+    color: rgb(9, 206, 206); /* Texto en cian */
+    border: 2px solid #00bcd4; /* Bordes en cian */
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: rgb(9, 206, 206); /* Fondo cian en hover */
+    color: #fff; /* Texto blanco */
+  }
+  
+  /* Estilo de los campos de selección y checkboxes */
+  select {
+    background-color: #fff;
+    border: 2px solid #00bcd4;
+    border-radius: 8px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    form {
+      padding: 15px;
+    }
+  }
+  
